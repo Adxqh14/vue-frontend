@@ -8,10 +8,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "preview": "vite preview",
-    "serve": "vue-cli-service serve",
-  "build": "vue-cli-service build",
-  "lint": "vue-cli-service lint"
+  "build": "vite build",
+  "preview": "vite preview"
   },
   "dependencies": {
     "@tabler/icons-react": "^3.35.0",
