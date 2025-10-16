@@ -11,7 +11,7 @@ const usuarios = ref([]);
 // Traemos los datos al montar el componente
 onMounted(async () => {
   try {
-    const res = await fetch('http://localhost:vue-backend-production.up.railway.app/thousandsunny');
+    const res = await fetch('http://localhost:4001/thousandsunny');
     const data = await res.json();
     usuarios.value = data; // Actualizamos la variable reactiva
   } catch (err) {

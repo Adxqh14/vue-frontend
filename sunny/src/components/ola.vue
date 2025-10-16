@@ -36,7 +36,7 @@ const handleSubmit = async () => {
   }
 
   try {
-    const res = await fetch('http://localhost:vue-backend-production.up.railway.app', {
+    const res = await fetch('http://localhost:4001/thousandsunny', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
